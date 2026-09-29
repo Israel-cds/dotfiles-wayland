@@ -10,13 +10,22 @@ Contém arquivos de configuração dos seguintes softwares:
 - fastfetch (Infos do Sistema)
 
 Dependencias:
+
 Mangowm
+
 waybar
+
 wofi
+
 alacritty
+
 oh-my-posh
+
 swaybg
+
 xdg-desktop-portal
+
 xdg-desktop-portal-wlr
+
 nerd-fonts
 
