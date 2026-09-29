@@ -21,6 +21,8 @@ alacritty
 
 oh-my-posh
 
+fastfetch
+
 swaybg
 
 xdg-desktop-portal
