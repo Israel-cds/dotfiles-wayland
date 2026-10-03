@@ -2,4 +2,4 @@
 
 # Get the aliases and functions
 [ -f $HOME/.bashrc ] && . $HOME/.bashrc
-dbus-run-session mango
+./start
