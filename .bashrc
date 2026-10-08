@@ -3,10 +3,10 @@ export PATH="$PATH:$HOME/.local/bin"
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+alias conf="vim .config"
 alias ls='ls --color=auto'
 alias ra=ranger
 alias ff=fastfetch
-alias x5="xrandr -s 5"
 
 alias xq=xbps-query
 alias xu="sudo xbps-install -Su"
