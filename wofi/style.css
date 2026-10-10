@@ -3,8 +3,8 @@ background-color:transparent;
 border-radius:15px;
 }
 #outer-box{
-border:none;
-background:#665c54;
+border:1px solid #fbf1c7;
+background:#3c3836;
 border-radius:15px;
 }
 #scroll{
@@ -17,7 +17,7 @@ color: #fbf1c7 ;
 margin:5px;
 border:none;
 border-radius:15px;
-background:#3c3836 ;
+background:#282828 ;
 }
 #entry:selected{
 background-color: #458588 ;
