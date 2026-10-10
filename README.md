@@ -1,6 +1,7 @@
 # Dotfiles Wayland:
 
 Contém arquivos de configuração dos seguintes softwares:
+> (Consequentemente, Dependências)
 
 - Dwl (Window Manager)
 - waybar (Barra de Status)
