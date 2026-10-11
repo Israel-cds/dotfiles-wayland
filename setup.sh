@@ -1,5 +1,5 @@
 #!/bin/sh
-
+chmod +x setup.sh
 cp start ~/
 cp dwl/config.h ~/dwl &
 cp -r fastfetch/ ~/.config/
