@@ -8,7 +8,7 @@ Contém arquivos de configuração dos seguintes softwares:
 - wofi(App Launcher)
 - foot (Terminal emulator)
 - oh-my-posh (Terminal prompt)
-- fastfetch (Infos do Sistema)
+- pfech (Infos do Sistema)
 - swaybg (Background for wayland)
 
 # Screenshots

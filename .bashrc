@@ -6,7 +6,7 @@ export PATH="$PATH:$HOME/.local/bin"
 alias conf="vim .config"
 alias ls='ls --color=auto'
 alias ra=ranger
-alias ff=fastfetch
+alias pf=pfetch
 
 alias xq=xbps-query
 alias xu="sudo xbps-install -Su"
@@ -17,5 +17,5 @@ alias xr="sudo xbps-remove"
 PS1='[\u@\h \w]\$ '
 
 # Run when bash is open
-ff
+pfetch
 eval "$(~/.local/bin/oh-my-posh init bash --config ~/.cache/oh-my-posh/themes/gruvbox.omp.json)"
