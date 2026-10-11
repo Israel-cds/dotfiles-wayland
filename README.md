@@ -13,7 +13,7 @@ Contém arquivos de configuração dos seguintes softwares:
 
 # Screenshots
 
-![](screenshots/Screenshot.from.2026-10-06.at.22_33_20.947898296.png)
+![](screenshots/Screenshot.from.2026-10-11.at.14_57_22.0174083897.png)
 ![](screenshots/Screenshot.from.2026-10-06.at.22_35_26.327221813.png)
 ![](screenshots/Screenshot.from.2026-10-06.at.22_38_46.111258576.png)
 
