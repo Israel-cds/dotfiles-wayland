@@ -1,5 +1,6 @@
 #!/bin/sh
-cp start ~/
+cp -r scripts/ ~/
+mv ~/vol* ~/.local/bin/
 cp dwl/config.h ~/dwl &
 cp -r foot/ ~/.config/
 cp -r wofi/ ~/.config/

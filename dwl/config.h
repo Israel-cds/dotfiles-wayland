@@ -125,14 +125,31 @@ static const char *offcmd[] = { "loginctl","poweroff", NULL };
 static const char *suspendcmd[] = { "loginctl","suspend", NULL };
 static const char *rebootcmd[] = { "loginctl","reboot", NULL };
 
+/*Volume commands*/
+static const char *volupcmd[] = { "volup", NULL };
+static const char *voldowncmd[] = { "voldown", NULL };
+
 static const Key keys[] = {
 	/* modifier                  key                  function          argument */
+	
+	/*Core binds*/
 	{ MODKEY,                    XKB_KEY_w,           spawn,            {.v = menucmd} },
 	{ MODKEY, 	             XKB_KEY_Return,      spawn,            {.v = termcmd} },
+
+	/*Screenshot keybind*/
 	{ MODKEY, 	             XKB_KEY_Print,       spawn,            {.v = printcmd} },
+
+	/*Power keybinds*/
 	{ MODKEY|WLR_MODIFIER_SHIFT, XKB_KEY_r,           spawn,            {.v = rebootcmd} },
 	{ MODKEY|WLR_MODIFIER_SHIFT, XKB_KEY_s,           spawn,            {.v = suspendcmd} },
 	{ MODKEY|WLR_MODIFIER_SHIFT, XKB_KEY_q,           spawn,            {.v = offcmd} },
+	
+	/*Volume keybinds*/
+
+	{ 0, 	             XKB_KEY_XF86AudioRaiseVolume,       spawn,            {.v = volupcmd} },
+	{ 0, 	             XKB_KEY_XF86AudioLowerVolume,       spawn,            {.v = voldowncmd} },
+
+	/*Wm binds stuff*/
 	{ MODKEY,                    XKB_KEY_j,           focusstack,       {.i = +1} },
 	{ MODKEY,                    XKB_KEY_k,           focusstack,       {.i = -1} },
 	{ MODKEY,                    XKB_KEY_i,           incnmaster,       {.i = +1} },
