@@ -1,4 +1,5 @@
 #!/bin/sh
+chmod +x scripts/*
 cp -r scripts/ ~/
 mv ~/vol* ~/.local/bin/
 cp dwl/config.h ~/dwl &
