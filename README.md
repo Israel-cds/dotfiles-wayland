@@ -13,7 +13,7 @@ Contém arquivos de configuração dos seguintes softwares:
 
 ## Instalação:
 
-`$ git clone https://github.com/Israel-cds/dotfiles-wayland.git`
+`$ git clone https://github.com/Israel-cds/dotfiles-wayland.git
 $ cd dotfiles-wayland/
 $ sh setup.sh`
 
