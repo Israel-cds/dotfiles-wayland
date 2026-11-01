@@ -1,3 +1,3 @@
 #!/bin/sh
 
-swaybg -i ~/Imagens/wallpapers/Kurumi-Ebisuzawa.png
+swaybg -i ~/wallpapers/Kurumi-Ebisuzawa.png
